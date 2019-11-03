@@ -447,3 +447,55 @@ input[type=checkbox]{
 *:focus {
     outline: none;
 }
+
+
+/*----------------------------------------------------------------------*/
+/*FORMS*/
+/*----------------------------------------------------------------------*/
+
+footer{
+    background-color: #414040;
+    padding: 60px;
+    color: #888;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li a, .social-links li a{
+    text-decoration: none;
+    color: #888;
+    transition: color 0.2s;
+    
+}
+
+.social-links li a{
+    font-size: 160%;
+}
+.footer-nav li a:hover{
+    color:#fff;
+}
+
+.footer-nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.social-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+
+
+.row p {
+ text-align: center;
+ padding: 20px;   
+}

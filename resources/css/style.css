@@ -359,3 +359,52 @@ blockquote::before {
     top: 0;
     left: -3px;
 }
+
+
+/*----------------------------------------------------------------------*/
+/*PRICES*/
+/*----------------------------------------------------------------------*/
+.section-plans {
+    background-color: #d6d6d6;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.plan-price span{
+    font-size: 30%;
+    color: #cf6d17;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}

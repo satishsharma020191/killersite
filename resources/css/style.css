@@ -493,9 +493,31 @@ footer{
     margin-left: 20px;
 }
 
-
-
 .row p {
  text-align: center;
  padding: 20px;   
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: color 0.2s;
+}
+
+
+.ion-social-facebook:hover {
+    color: #2290bf;
+}
+
+.ion-social-twitter:hover {
+    color: #00b6f1;
+}
+
+.ion-social-googleplus:hover {
+    color: #df4a32;
+}
+
+.ion-social-instagram:hover {
+    color:  #c32aa3;
 }

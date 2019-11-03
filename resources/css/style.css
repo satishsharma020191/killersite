@@ -373,6 +373,7 @@ blockquote::before {
     border-radius: 5%;
     width: 90%;
     margin-left: 5%;
+    box-shadow: 0 2px 2px #ededed;
 }
 
 .plan-box div {
@@ -390,8 +391,17 @@ blockquote::before {
     padding: 5px 0;
 }
 
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 .plan-box div:last-child {
     text-align: center;
+    border: none;
+    background-color: #fcfcfc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .plan-price {
